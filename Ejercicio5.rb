@@ -7,6 +7,7 @@ class Morseable
   
         puts "#{'.' * number }#{'-' * (5 - number)}" if number <= 5
         puts "#{'-' * (number - 5) }#{'.' * (10 - number)}" if number > 5
+        
   
     end
   
